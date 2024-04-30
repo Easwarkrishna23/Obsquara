@@ -1,9 +1,8 @@
-package exception;
+package exceptionhandling;
 
-public class Exception1 {
-
+public class Exception2 {
 	public static void main(String[] args) {
-		// 
+		// try block
 		try {
 		int a = 10;
 		int b = 0;
@@ -13,6 +12,8 @@ public class Exception1 {
 		catch(ArithmeticException d){
 			System.out.println("Exception Occurred");
 		}
+		finally {
+			System.out.println("Execution Completed");
+		}
 	}
-
 }

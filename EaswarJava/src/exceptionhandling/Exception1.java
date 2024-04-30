@@ -1,4 +1,4 @@
-package exception;
+package exceptionhandling;
 
 public class Exception1 {
 
@@ -13,6 +13,7 @@ public class Exception1 {
 		catch(ArithmeticException d){
 			System.out.println("Exception Occurred");
 		}
+
 	}
 
 }

@@ -6,9 +6,7 @@ public class Student extends Address {
 
 	String name;
 	int roll ;
-	
 	//Address_class Address_method() ---Aggregation
-	
 	Address address;
 	String add;
 	
